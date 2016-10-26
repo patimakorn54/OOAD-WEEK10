@@ -38,6 +38,8 @@ system<-system:Process Data
 system->"Water cooler" :Send Data
 @enduml
 ```
+![](https://github.com/patimakorn54/OOAD-WEEK10/blob/master/HomeWork/2.png?raw=true)
+
 
 ข้อ 3 ซื้อของผ่านเว็บ
 
@@ -58,6 +60,8 @@ Seller<-Webpage:Send Data Customer and Product
 Seller->Customer:Send Email To User
 @enduml
 ```
+![](https://github.com/patimakorn54/OOAD-WEEK10/blob/master/HomeWork/3.png?raw=true)
+
 
 ข้อ 4 Update BookBank Machine
 
@@ -75,6 +79,8 @@ Database->"Machine update bookbank":Return Data
 "Machine update bookbank"->Customer:Update Finish
 @enduml
 ```
+![](https://github.com/patimakorn54/OOAD-WEEK10/blob/master/HomeWork/4.png?raw=true)
+
 
 ข้อ 5 แสกนบาโค้ดเช็คราคาสินค้า
 
@@ -92,5 +98,5 @@ Database<-Database:Search :Process
 Customer<-"Scan barcode":Tell Price Product
 @enduml
 ```
-
+![](https://github.com/patimakorn54/OOAD-WEEK10/blob/master/HomeWork/5.png?raw=true)
 
