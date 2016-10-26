@@ -19,7 +19,7 @@ Database->First :Return  Result To User
 
 ข้อ 2 ตู้น้ำหยอดเหรียญ
 
-COde
+Code
 ``
 @startuml
 actor First #Green
