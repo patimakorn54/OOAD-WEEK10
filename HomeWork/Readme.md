@@ -93,7 +93,7 @@ participant Database
 
 Customer->"Scan barcode":Check Price
 Database<-"Scan barcode":Search Data
-Database<-Database:Search :Process
+Database<-Database:Search Data
 "Scan barcode"<-Database:Search :Send Data Price
 Customer<-"Scan barcode":Tell Price Product
 @enduml
