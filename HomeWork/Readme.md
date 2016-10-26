@@ -3,7 +3,7 @@
 ข้อ 1 Web Register
 
 Code
-``
+```
 @startuml
 actor First #Green
 participant Register 
@@ -14,13 +14,13 @@ Register->Database:Send User Deatail
 Database->Database:Insert User Deatil
 Database->First :Return  Result To User
 @enduml
-``
+```
 
 
 ข้อ 2 ตู้น้ำหยอดเหรียญ
 
 Code
-``
+```
 @startuml
 actor First #Green
 participant "Water cooler" 
@@ -36,12 +36,12 @@ system<-"KeyPad Select Water":Send Data
 system<-system:Process Data
 system->"Water cooler" :Send Data
 @enduml
-``
+```
 
 ข้อ 3 ซื้อของผ่านเว็บ
 
 Code
-``
+```
 @startuml
 actor Customer #Green
 participant Webpage 
@@ -56,12 +56,12 @@ Database->Webpage:Valid
 Seller<-Webpage:Send Data Customer and Product
 Seller->Customer:Send Email To User
 @enduml
-``
+```
 
 ข้อ 4 Update BookBank Machine
 
 Code
-``
+```
 @startuml
 actor Customer #Green
 participant "Machine update bookbank" 
@@ -73,12 +73,12 @@ Database->"Machine update bookbank":Return Data
 "Machine update bookbank"->"Machine update bookbank":Print BookBank
 "Machine update bookbank"->Customer:Update Finish
 @enduml
-``
+```
 
 ข้อ 5 แสกนบาโค้ดเช็คราคาสินค้า
 
 Code
-``
+```
 @startuml
 actor Customer #Green
 participant "Scan barcode"
@@ -90,6 +90,6 @@ Database<-Database:Search :Process
 "Scan barcode"<-Database:Search :Send Data Price
 Customer<-"Scan barcode":Tell Price Product
 @enduml
-``
+```
 
 
