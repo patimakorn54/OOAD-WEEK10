@@ -15,6 +15,7 @@ Database->Database:Insert User Deatil
 Database->First :Return  Result To User
 @enduml
 ```
+![]()
 
 
 ข้อ 2 ตู้น้ำหยอดเหรียญ
