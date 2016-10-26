@@ -15,7 +15,7 @@ Database->Database:Insert User Deatil
 Database->First :Return  Result To User
 @enduml
 ```
-![]()
+![](https://github.com/patimakorn54/OOAD-WEEK10/blob/master/HomeWork/1.png?raw=true)
 
 
 ข้อ 2 ตู้น้ำหยอดเหรียญ
